@@ -64,9 +64,9 @@ function Header() {
       </div>
         <div className="mobmenu-items">
          <h3>Resources</h3>
-         <Link to='/wallet' style={{textDecoration:'none', color:'#fff'}}><p>Home</p></Link>
-         <Link to='/market' style={{textDecoration:'none', color:'#fff'}}><p>Recent News</p></Link>
-
+         <Link to='/' style={{textDecoration:'none', color:'#fff'}}><p>Home</p></Link>
+         <Link to='/news' style={{textDecoration:'none', color:'#fff'}}><p>Recent News</p></Link>
+         <Link to='/dashboard' style={{textDecoration:'none', color:'#fff'}}><p>Dahboard</p></Link>
         <p></p>
       </div>
 
