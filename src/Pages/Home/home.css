@@ -60,6 +60,9 @@ img {
   display: grid;
   gap: 1.5rem;
 }
+.git-upload .header{
+    background-color: #333;
+} 
 
 .text-center {
   text-align: center;
@@ -322,3 +325,5 @@ a.btn svg {
     color: #fff;
   }
 }
+
+

@@ -26,6 +26,7 @@ function Header() {
       <div className="menu">
       <Link to='/' style={{textDecoration:'none', color:'#fff'}}><p>Home</p></Link>
          <Link to='/news' style={{textDecoration:'none', color:'#fff'}}><p>News</p></Link>
+         <Link to='/upload' style={{textDecoration:'none', color:'#fff'}}><p>Upload</p></Link>
          <Link to='/dashboard' style={{textDecoration:'none', color:'#fff'}}><p>Dahboard</p></Link>
 
         <p></p>
@@ -66,6 +67,7 @@ function Header() {
          <h3>Resources</h3>
          <Link to='/' style={{textDecoration:'none', color:'#fff'}}><p>Home</p></Link>
          <Link to='/news' style={{textDecoration:'none', color:'#fff'}}><p>Recent News</p></Link>
+         <Link to='/upload' style={{textDecoration:'none', color:'#fff'}}><p>Upload</p></Link>
          <Link to='/dashboard' style={{textDecoration:'none', color:'#fff'}}><p>Dahboard</p></Link>
         <p></p>
       </div>

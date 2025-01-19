@@ -16,6 +16,7 @@ import Products from './Pages/Admin Panel/Products';
 import Employees from './Pages/Admin Panel/Employees';
 import Home from './Pages/Home/Home';
 import BlogPostsSection from './Pages/Home/BlogPostsSection';
+import UploadToGitHub from './Pages/Home/UploadToGitHub';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
 
       <Route path='/signup' element={<Signup />} />
       <Route path='/' element={<Home />} />
+      <Route path='/upload' element={<UploadToGitHub/>} />
       <Route path='/news' element={<BlogPostsSection />} />
       
       <Route path='/signin' element={<Signin />} />
