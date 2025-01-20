@@ -36,7 +36,7 @@ function AdminPanel() {
 
     useEffect(()=>{
         if(!user){
-            navigate('/admin/login')
+            navigate('/signin')
         }
     },[user])
     useEffect(()=>{
